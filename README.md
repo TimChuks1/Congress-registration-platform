@@ -1,4 +1,4 @@
-# Conference Management Portal
+# ACM Annual Congress 2026 – Conference Registration Platform
 
 Congress management portal for attendee registration, conference information, and on-site registration verification.
 

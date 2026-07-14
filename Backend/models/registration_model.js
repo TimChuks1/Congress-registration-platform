@@ -31,10 +31,10 @@ const registrationSchema = new mongoose.Schema({
     },
     checkedin: {
         type: Boolean,
-    }
+    },
 }, { timestamps: true }
 );
 
-const registrationModel = mongoose.model("Registration", registrationSchema);
+const Registration = mongoose.model("Registration", registrationSchema);
 
-export default registrationModel;
+export default Registration;

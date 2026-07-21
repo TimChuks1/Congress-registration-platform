@@ -11,14 +11,25 @@ const speakerSchema = new mongoose.Schema({
         required: true,
         trim: true
     },
+    position: {
+        type: String,
+        required: true,
+        trim: true
+    },
     bio: {
         type: String,
         required: true,
         trim: true
     },
-    photo: {
-        type: String,
-        required: true,
+    image: {
+        photo_id: {
+            type: String,
+            required: true
+        },
+        url: {
+            type: String,
+            required: true
+        }
     },
 }, { timestamps: true });
 
